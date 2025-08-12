@@ -4,22 +4,6 @@ import React, { useRef } from "react";
 export default function ContactSection() {
   const formRef = useRef();
 
-  const handleFormSubmit = async (event) => {
-    event.preventDefault();
-    const form = formRef.current;
-
-    // Log form content for debugging
-    console.log('Form:', form);
-
-    // Generate a random number for the contact_number variable
-    const randomValue = Math.random() * 100000 | 0;
-    console.log('Random Value:', randomValue);
-
-    // Set the value directly using getElementById
-    document.getElementById('contact_number').value = randomValue;
-
-    
-  };
 
   return (
     <section

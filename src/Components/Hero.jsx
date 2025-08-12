@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <>
-      <div id="hero" className="hero route ">
+      <div id="hero" className="hero route " style={heroStyle}>
         <div className="overlay-itro"></div>
         <div className="hero-content display-table">
           <div className="table-cell">

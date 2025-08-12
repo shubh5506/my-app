@@ -18,7 +18,7 @@ export default function Header() {
         <nav id="navbar" className={`navbar ${mobileNavActive ? 'active' : ''}`}>
           <ul>
             <li className="logo">
-              <img src={Logo} alt="My Image Description" />
+              <img src={Logo} alt="Shubham Sarpal logo" />
             </li>
             <li>
               <a href="#hero" onClick={handleNavItemClick}>Home</a>
