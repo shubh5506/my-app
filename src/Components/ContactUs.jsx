@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 
 
 export default function ContactSection() {
-  const formRef = useRef();
-
+ 
 
   return (
     <section
