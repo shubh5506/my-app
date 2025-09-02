@@ -19,13 +19,13 @@ function ChatBot() {
   // 🔹 Index to rotate placeholders
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
-  // 🔹 Rotate every 3 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPlaceholderIndex((prev) => (prev + 1) % placeholders.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+useEffect(() => {
+  const interval = setInterval(() => {
+    setPlaceholderIndex((prev) => (prev + 1) % placeholders.length);
+  }, 3000);
+
+  return () => clearInterval(interval);
+}, [placeholders.length]); 
 
   const toggleChat = () => setOpen(!open);
 
