@@ -9,6 +9,8 @@ import Services from "./Components/Experience";
 import CounterSection from "./Components/CounterSection";
 import ContactSection from "./Components/ContactUs";
 import Footer from "./Components/Footer";
+import ChatBot from "./Components/Chat";
+
 
 
 
@@ -24,6 +26,7 @@ root.render(
       <ContactSection></ContactSection>
     </main>
     <Footer></Footer>
+    <ChatBot></ChatBot>
   </React.StrictMode>
 );
 
