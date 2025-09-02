@@ -6,7 +6,6 @@ function ChatBot() {
   const [messages, setMessages] = useState([]);
 
 
-  // 🔹 Resume-focused placeholder list
   const placeholders = [
     "Ask me about my experience...",
     "What skills do you have in .NET?",
@@ -16,7 +15,7 @@ function ChatBot() {
     "Do you have React and Blazor experience?",
   ];
 
-  // 🔹 Index to rotate placeholders
+
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
 
 useEffect(() => {
