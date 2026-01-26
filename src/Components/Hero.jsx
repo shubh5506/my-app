@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../Images/IMG_1120.jpg";
 import heroGif from "../Images/g1.png";
 
 export default function Hero() {
