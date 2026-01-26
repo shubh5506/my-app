@@ -10,30 +10,30 @@ export default function CounterSection() {
       desc: "Recruiters can ask questions about my resume and projects and get instant, AI-powered answers.",
       tech: ["React", "Python", "FastAPI", "RAG", "Hugging Face", "ChromaDB"],
       links: {
-        github: "https://github.com/yourusername/yourrepo",
+        github: "https://github.com/shubh5506/rag-api",
         // live: "./src/RagChatBot.jsx",
       },
       badge: "AI / RAG",
     },
     {
-      title: "Cloud Billing Query Builder (Enterprise UI + API)",
-      desc: "Built a dynamic UI to create, validate, and submit billing queries with clean API design and secure workflows.",
-      tech: ["Blazor Server", "C#", "SQL Server", "Azure DevOps", "CI/CD"],
+      title: "CRUD API for Shipping Items (Python + FastAPI)",
+      desc: "A RESTful API to manage shipping items with full CRUD operations, built using FastAPI.",
+      tech: ["Python", "FastAPI", "RestAPI"],
       links: {
-        github: "https://github.com/yourusername/yourrepo",
+        github: "https://github.com/shubh5506/PythonFastAPI",
       },
       badge: "Enterprise",
     },
-    {
-      title: "Serverless Snowflake Query Engine (AWS Lambda + .NET)",
-      desc: "A serverless API layer that executes secure Snowflake queries and returns results for downstream apps.",
-      tech: ["AWS Lambda", ".NET API", "Snowflake", "SQL", "Observability"],
-      links: {
-        github: "https://github.com/yourusername/yourrepo",
-        live: "",
-      },
-      badge: "Cloud",
-    },
+    // {
+    //   title: "Serverless Snowflake Query Engine (AWS Lambda + .NET)",
+    //   desc: "A serverless API layer that executes secure Snowflake queries and returns results for downstream apps.",
+    //   tech: ["AWS Lambda", ".NET API", "Snowflake", "SQL", "Observability"],
+    //   links: {
+    //     github: "https://github.com/yourusername/yourrepo",
+    //     live: "",
+    //   },
+    //   badge: "Cloud",
+    // },
   ];
   return (
     <div

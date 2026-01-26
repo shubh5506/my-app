@@ -43,6 +43,8 @@ export default function RagChatBot() {
 
   const url = `${API_BASE}/chat?message=${encodeURIComponent(message)}&mode=${encodeURIComponent(mode)}`;
 
+  console.log("Calling Chat API:", url);
+
 
   const res = await fetch(url);
   const data = await res.json();
