@@ -4,6 +4,37 @@ export default function CounterSection() {
   const counterSectionStyle = {
     backgroundImage: `url(${counterBgImage})`, // Use backticks (`) here
   };
+   const projects = [
+    {
+      title: "AI-Powered Portfolio Chatbot (RAG)",
+      desc: "Recruiters can ask questions about my resume and projects and get instant, AI-powered answers.",
+      tech: ["React", "Python", "FastAPI", "RAG", "Hugging Face", "ChromaDB"],
+      links: {
+        github: "https://github.com/yourusername/yourrepo",
+        // live: "./src/RagChatBot.jsx",
+      },
+      badge: "AI / RAG",
+    },
+    {
+      title: "Cloud Billing Query Builder (Enterprise UI + API)",
+      desc: "Built a dynamic UI to create, validate, and submit billing queries with clean API design and secure workflows.",
+      tech: ["Blazor Server", "C#", "SQL Server", "Azure DevOps", "CI/CD"],
+      links: {
+        github: "https://github.com/yourusername/yourrepo",
+      },
+      badge: "Enterprise",
+    },
+    {
+      title: "Serverless Snowflake Query Engine (AWS Lambda + .NET)",
+      desc: "A serverless API layer that executes secure Snowflake queries and returns results for downstream apps.",
+      tech: ["AWS Lambda", ".NET API", "Snowflake", "SQL", "Observability"],
+      links: {
+        github: "https://github.com/yourusername/yourrepo",
+        live: "",
+      },
+      badge: "Cloud",
+    },
+  ];
   return (
     <div
       className="section-counter paralax-mf bg-image"
@@ -26,7 +57,7 @@ export default function CounterSection() {
                   data-purecounter-duration="1"
                   className="counter purecounter"
                 ></p>
-                <span className="counter-text">11+ PROEJCTS COMPLETED</span>
+                <span className="counter-text">11+ PROJECTS COMPLETED</span>
               </div>
             </div>
           </div>
@@ -44,7 +75,7 @@ export default function CounterSection() {
                   data-purecounter-duration="1"
                   className="counter purecounter"
                 ></p>
-                <span className="counter-text">7+ YEARS OF EXPERIENCE</span>
+                <span className="counter-text">8+ YEARS OF EXPERIENCE</span>
               </div>
             </div>
           </div>
@@ -84,8 +115,70 @@ export default function CounterSection() {
               </div>
             </div>
           </div> */}
+            <section id="projects" className="projects-section">
+      <div className="container">
+        <div className="title-box text-center">
+          <h3 className="counter-num" style={{ color: 'white' }}>Projects</h3>
+          <p className="counter-num" style={{ color: 'white' }}>
+            Real-world builds across AI, enterprise systems, and cloud platforms.
+          </p>
+          <div className="line-mf"></div>
+        </div>
+
+        <div className="projects-grid">
+          {projects.map((p, i) => (
+            <div className="project-card" key={i}>
+              <div className="project-top">
+                <span className="project-badge">{p.badge}</span>
+                <h4 className="project-title">{p.title}</h4>
+                <p className="project-desc">{p.desc}</p>
+              </div>
+
+              <div className="project-tech">
+                {p.tech.map((t, idx) => (
+                  <span className="tech-pill" key={idx}>
+                    {t}
+                  </span>
+                ))}
+              </div>
+
+              <div className="project-actions">
+                {p.links.github && (
+                  <a
+                    href={p.links.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-btn"
+                  >
+                    GitHub
+                  </a>
+                )}
+
+                {p.links.live && (
+                  <a
+                    href={p.links.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-btn primary"
+                  >
+                    Live Demo
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
+        </div>
+      </div>
+      
+    </div>
+    
+    
+  );
+  
 }
+
+

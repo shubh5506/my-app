@@ -9,7 +9,8 @@ import Services from "./Components/Experience";
 import CounterSection from "./Components/CounterSection";
 import ContactSection from "./Components/ContactUs";
 import Footer from "./Components/Footer";
-import ChatBot from "./Components/Chat";
+// import ChatBot from "./Components/Chat";
+import RagChatBot from "./Components/RagChatBot.jsx";
 
 
 
@@ -24,9 +25,13 @@ root.render(
       <Services></Services>
       <CounterSection></CounterSection>
       <ContactSection></ContactSection>
+      <h2 style={{ color: "white", textAlign: "center" }}>
+  Chat With My Portfolio
+</h2>
+<RagChatBot />
     </main>
     <Footer></Footer>
-    <ChatBot></ChatBot>
+   
   </React.StrictMode>
 );
 

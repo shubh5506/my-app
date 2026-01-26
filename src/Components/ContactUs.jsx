@@ -40,13 +40,21 @@ export default function ContactSection() {
                     </div>
                     <div className="socials">
                       <ul>
-                        <li>
-                          <a href="https://www.linkedin.com/in/shubham-s-342282134">
-                            <span className="ico-circle">
-                              <i className="bi bi-linkedin"></i>
-                            </span>
+                       <li>
+                       <div className="social-links">
+                          <a
+                            href="https://www.linkedin.com/in/shubham-s-342282134"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <i className="bi bi-linkedin"></i>  
                           </a>
-                        </li>
+
+                          <a href="https://github.com/shubh5506" target="_blank" rel="noreferrer">
+                            <i className="bi bi-github"></i>
+                          </a>
+                        </div>
+                      </li>
                       </ul>
                     </div>
                   </div>
