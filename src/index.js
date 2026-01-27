@@ -25,10 +25,7 @@ root.render(
       <Services></Services>
       <CounterSection></CounterSection>
       <ContactSection></ContactSection>
-      <h2 style={{ color: "white", textAlign: "center" }}>
-  Chat With My Portfolio
-</h2>
-<RagChatBot />
+      <RagChatBot />
     </main>
     <Footer></Footer>
    
