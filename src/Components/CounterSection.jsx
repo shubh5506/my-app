@@ -11,7 +11,7 @@ export default function CounterSection() {
       tech: ["React", "Python", "FastAPI", "RAG", "Hugging Face", "ChromaDB"],
       links: {
         github: "https://github.com/shubh5506/rag-api",
-        // live: "./src/RagChatBot.jsx",
+        live: "https://rag-api-production-bf85.up.railway.app/docs",
       },
       badge: "AI / RAG",
     },
@@ -21,6 +21,7 @@ export default function CounterSection() {
       tech: ["Python", "FastAPI", "RestAPI"],
       links: {
         github: "https://github.com/shubh5506/PythonFastAPI",
+        live: "https://pythonfastapi-production-5915.up.railway.app/docs"
       },
       badge: "Enterprise",
     },
