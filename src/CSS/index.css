@@ -2080,3 +2080,27 @@ footer .credits a {
   padding: 20px;
   color: #888;
 }
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .primary-btn {
+    grid-column: span 1;
+    width: 100%;
+  }
+
+  .shipment-page {
+    padding: 0 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .styled-table {
+    font-size: 13px;
+  }
+}
