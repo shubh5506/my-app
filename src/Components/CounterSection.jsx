@@ -30,7 +30,7 @@ export default function CounterSection() {
       desc: "FastAPI + React app to create and track shipments, automatically flagging duplicate entries in real time.",
       tech: ["Python", "FastAPI", "React", "UI/UX", "Data Validation"],
       links: {
-        github: "https://github.com/yourusername/yourrepo",
+        github: "https://github.com/shubh5506/my-app/blob/main/src/Components/ShipmentForm.jsx",
         live: "/shipments"
       },
      badge: "Full Stack",
