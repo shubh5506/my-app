@@ -25,16 +25,16 @@ export default function CounterSection() {
       },
       badge: "Enterprise",
     },
-    // {
-    //   title: "Serverless Snowflake Query Engine (AWS Lambda + .NET)",
-    //   desc: "A serverless API layer that executes secure Snowflake queries and returns results for downstream apps.",
-    //   tech: ["AWS Lambda", ".NET API", "Snowflake", "SQL", "Observability"],
-    //   links: {
-    //     github: "https://github.com/yourusername/yourrepo",
-    //     live: "",
-    //   },
-    //   badge: "Cloud",
-    // },
+    {
+      title: "Shipment Manager + Duplicate Detection",
+      desc: "FastAPI + React app to create and track shipments, automatically flagging duplicate entries in real time.",
+      tech: ["Python", "FastAPI", "React", "UI/UX", "Data Validation"],
+      links: {
+        github: "https://github.com/yourusername/yourrepo",
+        live: "/shipments"
+      },
+     badge: "Full Stack",
+    },
   ];
   return (
     <div
