@@ -17,6 +17,7 @@ export default function ShipmentForm() {
   const [error, setError] = useState("");
 
   // 🔹 Load ALL shipments
+  
  const loadShipments = async () => {
   try {
     console.log("LOADING SHIPMENTS...");
@@ -105,6 +106,11 @@ setForm({ item: "", quantity: "", status: "", order_date: "" });
  return (
   <div className="shipment-page">
     <h2 className="title">📦 Shipment Manager with Duplicate Detection</h2>
+     {error && (
+    <p style={{ color: "red", marginBottom: 10 }}>
+      {error}
+    </p>
+  )}
 
     <div className="card">
       <h3>Create Shipment</h3>
@@ -137,9 +143,9 @@ setForm({ item: "", quantity: "", status: "", order_date: "" });
           }
         />
 
-        <button className="primary-btn" type="submit">
-          Create Shipment
-        </button>
+       <button className="primary-btn" type="submit" disabled={loading}>
+  {loading ? "Saving..." : "Create Shipment"}
+</button>
       </form>
     </div>
 
