@@ -1,5 +1,5 @@
 import React from "react";
-
+import resumePdf from "../ShubhamSarpalResume.pdf";
 
 export default function AboutUs() {
   return (
@@ -200,7 +200,7 @@ I enjoy turning complex business problems into clean, reliable software — from
                       <p className="lead">Looking for roles where I can combine full-stack engineering with AI-powered search and automation. Let’s connect!</p>
                    <div className="resume-btn-wrap">
   <a
-    href="/shubhamsarpalresume.pdf"
+    href={resumePdf}
     download="ShubhamSarpal_Resume.pdf"
     className="resume-btn"
   >
