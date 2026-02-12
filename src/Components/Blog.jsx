@@ -42,7 +42,7 @@ I didn’t build it once.
 I built it twice — using two completely different stacks — to see which one actually performs better in the real world.
 
 ☁️ Version 1 — Azure Semantic Kernel + .NET 6
-<img src="/AzChat.png" style="width:100%; border-radius:12px; margin:20px 0;" />
+<img src="/Azchat.png" style="width:100%; border-radius:12px; margin:20px 0;" />
 
 Since I’ve spent years in C# and .NET, this felt like the natural starting point. Semantic Kernel made it easy to orchestrate prompts, plugins, and AI workflows directly inside Azure. Everything felt structured and “enterprise ready” from day one.
 
