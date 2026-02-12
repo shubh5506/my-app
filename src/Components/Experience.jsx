@@ -24,7 +24,7 @@ export default function Services() {
       tag: "EdTech",
     },
     {
-      company: "HCL (Client: USAA)",
+      company: "USAA",
       role: "Technical Analyst & Consultant",
       dates: "Feb 2018 - Apr 2019",
       years: "1+ yrs",
