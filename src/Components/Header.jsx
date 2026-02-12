@@ -29,6 +29,9 @@ export default function Header() {
             <li>
               <a href="#experiences" onClick={handleNavItemClick}>Experience</a>
             </li>
+              <li>
+              <a href="#blog" onClick={handleNavItemClick}>Blog</a>
+            </li>
             <li>
               <a href="#contact" onClick={handleNavItemClick}>Contact</a>
             </li>

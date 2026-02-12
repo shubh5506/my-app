@@ -9,6 +9,7 @@ import ContactSection from "./Components/ContactUs";
 import Footer from "./Components/Footer";
 import RagChatBot from "./Components/RagChatBot";
 import ShipmentForm from "./Components/ShipmentForm";
+import BlogSection from "./Components/BlogSection";
 
 function AppLayout() {
   const location = useLocation();
@@ -30,6 +31,7 @@ function AppLayout() {
                 <AboutUs />
                 <Services />
                 <CounterSection />
+                <BlogSection /> 
                 <ContactSection />
                 <RagChatBot />
               </>

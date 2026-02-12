@@ -1,5 +1,5 @@
 import React from "react";
-import resumePdf from "../ShubhamSarpalResume.pdf";
+// import resumePdf from "../ShubhamSarpalResume.pdf";
 
 export default function AboutUs() {
   return (
@@ -199,13 +199,13 @@ I enjoy turning complex business problems into clean, reliable software — from
                       </p>
                       <p className="lead">Looking for roles where I can combine full-stack engineering with AI-powered search and automation. Let’s connect!</p>
                    <div className="resume-btn-wrap">
-  <a
+  {/* <a
     href={resumePdf}
     download="ShubhamSarpal_Resume.pdf"
     className="resume-btn"
   >
     Download Resume
-  </a>
+  </a> */}
 </div>
 
 <div className="scroll-box">
